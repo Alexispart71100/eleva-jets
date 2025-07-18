@@ -1,0 +1,17 @@
+{
+  "name": "site-private-jet",
+  "version": "1.0.0",
+  "description": "Site Hugo avec Tailwind CSS",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo --gc --minify",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.6",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/cli": "^4.1.6",
+    "prettier": "^3.5.3"
+  }
+}
