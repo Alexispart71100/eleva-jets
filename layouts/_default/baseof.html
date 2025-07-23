@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ block "title" . }}{{ .Title }} | Eleva Jets{{ end }}</title>
+    {{ partial "head.html" . }}
+  </head>
+  <body class="bg-[#F8F6F2] text-[#0A1A2F]">
+    {{ partial "header.html" . }}
+
+    <main id="main-content">
+      {{ block "main" . }}
+      <!-- Ici s'affichent tes pages, sections, etc. -->
+      {{ .Content }}
+      {{ end }}
+    </main>
+
+    {{ partial "footer.html" . }}
+{{ $formJS := resources.Get "js/formulaire-reservation.js" | js.Build | minify | fingerprint }}
+<script src="{{ $formJS.RelPermalink }}" defer></script>
+
+  </body>
+</html>

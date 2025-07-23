@@ -1,0 +1,76 @@
+{{ $tabs := .Params.services_tabs }}
+
+<section class="w-full" style="background: #f4f4f5; padding-top: 3rem; padding-bottom: 3rem; padding-left: 1rem; padding-right: 1rem;">
+  <div class="max-w-7xl mx-auto">
+    <!-- Tabs menu -->
+    <div class="flex overflow-x-auto gap-12 border-b mb-10 scrollbar-hide" style="border-bottom: 1.5px solid #ceddef;">
+      {{ range $i, $tab := $tabs }}
+        <button
+          class="min-w-max pb-2 text-3xl font-extrabold tracking-tight transition-all duration-200 {{ if eq $i 0 }} underline underline-offset-4{{ end }}"
+          onclick="showServiceTab(event, 'tab-{{ $i }}')"
+          id="btn-tab-{{ $i }}"
+          style="font-family: 'Switzer', Arial, Helvetica, sans-serif; color: {{ if eq $i 0 }}#8dbdf8{{ else }}#14161b{{ end }}; background: none; border: none;">
+          {{ $tab.title }}
+        </button>
+      {{ end }}
+    </div>
+
+    <!-- Tabs content -->
+    <div>
+      {{ range $i, $tab := $tabs }}
+        <div id="tab-{{ $i }}" class="tab-content {{ if eq $i 0 }}block{{ else }}hidden{{ end }}">
+          <div class="flex flex-col-reverse lg:flex-row items-center gap-10">
+            <!-- Texte -->
+            <div class="w-full lg:w-1/2">
+              <h3 
+                class="text-3xl sm:text-4xl font-bold mb-4"
+                style="font-family: 'Switzer', Arial, Helvetica, sans-serif; color: #14161b;">
+                {{ $tab.title }}
+              </h3>
+              <div 
+                class="text-xl mb-4"
+                style="font-family: 'Switzer', Arial, Helvetica, sans-serif; color: #8dbdf8;">
+                {{ $tab.subtitle }}
+              </div>
+              <p 
+                class="text-lg leading-relaxed"
+                style="font-family: 'Switzer', Arial, Helvetica, sans-serif; color: #14161b;">
+                {{ $tab.text }}
+              </p>
+            </div>
+            <!-- Image -->
+            <div class="w-full lg:w-1/2 flex justify-center items-center">
+              <img src="{{ $tab.image }}" alt="{{ $tab.title }}" class="rounded-2xl shadow-xl max-h-80 object-cover w-full" style="border: 1.5px solid #ceddef;" loading="lazy">
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- Script tabs -->
+  <script>
+    function showServiceTab(evt, tabId) {
+      // Masquer tous les contenus
+      document.querySelectorAll('.tab-content').forEach(el => {
+        el.classList.add('hidden');
+        el.classList.remove('block');
+      });
+      // Réinitialiser tous les tabs
+      document.querySelectorAll('[id^="btn-tab-"]').forEach(btn => {
+        btn.style.color = "#14161b";
+        btn.classList.remove('underline', 'underline-offset-4');
+      });
+      // Afficher l'onglet cliqué
+      document.getElementById(tabId).classList.remove('hidden');
+      document.getElementById(tabId).classList.add('block');
+      // Activer le bouton courant
+      evt.target.style.color = "#8dbdf8";
+      evt.target.classList.add('underline', 'underline-offset-4');
+    }
+  </script>
+  <style>
+    .scrollbar-hide::-webkit-scrollbar { display: none; }
+    .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</section>

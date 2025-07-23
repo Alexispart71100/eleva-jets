@@ -1,0 +1,64 @@
+<form class="max-w-lg mx-auto bg-white border border-[#ceddef] rounded-2xl shadow-lg p-8 flex flex-col gap-6" autocomplete="off">
+  <div class="flex gap-4">
+    <!-- Prénom -->
+    <div class="flex-1">
+      <label for="prenom" class="block mb-2 font-semibold text-lg" style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+        Prénom <span class="text-[#8dbdf8]">*</span>
+      </label>
+      <input type="text" id="prenom" name="prenom" required
+        class="w-full px-4 py-3 border border-[#ceddef] rounded-lg text-base bg-[#f4f4f5] focus:outline-none focus:border-[#8dbdf8] transition"
+        style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+    </div>
+    <!-- Nom -->
+    <div class="flex-1">
+      <label for="nom" class="block mb-2 font-semibold text-lg" style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+        Nom <span class="text-[#8dbdf8]">*</span>
+      </label>
+      <input type="text" id="nom" name="nom" required
+        class="w-full px-4 py-3 border border-[#ceddef] rounded-lg text-base bg-[#f4f4f5] focus:outline-none focus:border-[#8dbdf8] transition"
+        style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+    </div>
+  </div>
+  <!-- Email -->
+  <div>
+    <label for="email" class="block mb-2 font-semibold text-lg" style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+      E-mail <span class="text-[#8dbdf8]">*</span>
+    </label>
+    <input type="email" id="email" name="email" required
+      class="w-full px-4 py-3 border border-[#ceddef] rounded-lg text-base bg-[#f4f4f5] focus:outline-none focus:border-[#8dbdf8] transition"
+      style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+  </div>
+  <!-- Numéro de téléphone -->
+  <div>
+    <label for="telephone" class="block mb-2 font-semibold text-lg" style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+      Numéro de téléphone <span class="text-[#8dbdf8]">*</span>
+    </label>
+    <input type="tel" id="telephone" name="telephone" required
+      class="w-full px-4 py-3 border border-[#ceddef] rounded-lg text-base bg-[#f4f4f5] focus:outline-none focus:border-[#8dbdf8] transition"
+      style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+  </div>
+  <!-- Objet du message -->
+  <div>
+    <label for="objet" class="block mb-2 font-semibold text-lg" style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+      Objet du message
+    </label>
+    <input type="text" id="objet" name="objet"
+      class="w-full px-4 py-3 border border-[#ceddef] rounded-lg text-base bg-[#f4f4f5] focus:outline-none focus:border-[#8dbdf8] transition"
+      style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+  </div>
+  <!-- Message -->
+  <div>
+    <label for="message" class="block mb-2 font-semibold text-lg" style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b;">
+      Votre message <span class="text-[#8dbdf8]">*</span>
+    </label>
+    <textarea id="message" name="message" rows="6" required
+      class="w-full px-4 py-3 border border-[#ceddef] rounded-lg text-base bg-[#f4f4f5] focus:outline-none focus:border-[#8dbdf8] transition"
+      style="font-family:'Switzer', Arial, Helvetica, sans-serif; color:#14161b; resize:vertical;"></textarea>
+  </div>
+  <!-- Bouton envoyer -->
+  <button type="submit"
+    class="mt-4 w-full py-3 rounded-full border border-[#8dbdf8] bg-[#8dbdf8] text-white font-semibold text-lg transition hover:bg-[#14161b] hover:text-[#8dbdf8] shadow"
+    style="font-family:'Switzer', Arial, Helvetica, sans-serif;">
+    Envoyer
+  </button>
+</form>

@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ .Title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <main style="padding: 4rem; font-family: sans-serif;">
-    <h1>{{ .Title }}</h1>
-    <div>
-      {{ .Content }}
-    </div>
-  </main>
-</body>
-</html>
+{{ define "main" }}
+  {{ partial "components/hero.html" . }}
+  {{ partial "components/howitworks.html" . }}
+  {{ partial "components/section-services.html" . }}
+  {{ partial "components/section-popular-destinations.html" . }}
+  {{ partial "components/reviews.html" . }}
+{{ end }}

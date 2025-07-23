@@ -1,0 +1,48 @@
+<section class="w-full py-20" style="background:#f4f4f5;">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 
+      class="text-4xl font-semibold mb-10"
+      style="font-family: 'Switzer', Arial, Helvetica, sans-serif; color: #14161b;">
+      Nos destinations populaires
+    </h2>
+    <div class="flex overflow-x-auto gap-8 scrollbar-hide pb-4">
+      {{ range .Params.popular_destinations }}
+      <div 
+        class="min-w-[280px] max-w-xs rounded-2xl shadow-lg p-0 flex flex-col justify-between border"
+        style="background: #fff; border-color: #ceddef;">
+        <img 
+          src="/images/home-page/{{ .img }}" 
+          alt="Jet privé à {{ .city }}" 
+          class="w-full h-48 object-cover rounded-t-2xl"
+          loading="lazy"
+        >
+        <div class="p-5 flex flex-col flex-1">
+          <div class="flex items-center mb-2">
+            <span 
+              class="font-bold text-lg"
+              style="font-family: 'Switzer', Arial, Helvetica, sans-serif; color: #14161b;">
+              {{ .city }}
+            </span>
+            <span 
+              class="ml-2 text-sm"
+              style="font-family: 'Switzer', Arial, Helvetica, sans-serif; color: #8dbdf8;">
+              ({{ .iata }})
+            </span>
+          </div>
+          <p 
+            class="text-base mb-3"
+            style="font-family: 'Switzer', Arial, Helvetica, sans-serif; color: #14161b;">
+            {{ .desc }}
+          </p>
+          <!-- Bouton non-cliquable (pas de <a>) -->
+          <div
+            class="mt-auto inline-block px-4 py-2 rounded-full border transition"
+            style="border: 1.5px solid #8dbdf8; color: #14161b; font-family: 'Switzer', Arial, Helvetica, sans-serif; font-weight: 600; background: none; cursor: default; text-align: center; user-select: none;">
+            Découvrir
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

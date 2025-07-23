@@ -1,0 +1,7 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <p>Ceci est un test minimal.</p>
+  {{ partial "widget/formulaire-reservation.html" . }}
+  {{ partial "components/howitworks.html" . }}
+  {{ .Content }}
+{{ end }}

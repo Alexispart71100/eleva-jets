@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vol privé sur-mesure, partout dans le monde on My New Hugo Site</title>
-    <link>http://localhost:1313/fr/</link>
-    <description>Recent content in Vol privé sur-mesure, partout dans le monde on My New Hugo Site</description>
+    <title>Pages-Legales on My New Hugo Site</title>
+    <link>http://localhost:1313/fr/pages-legales/</link>
+    <description>Recent content in Pages-Legales on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 10:50:12 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/fr/contact/</link>
-      <pubDate>Mon, 21 Jul 2025 10:50:12 +0200</pubDate>
-      <guid>http://localhost:1313/fr/contact/</guid>
-      <description>&lt;h2 id=&#34;contactez-nous&#34;&gt;Contactez-nous&lt;/h2&gt;&#xA;&lt;p&gt;Une question, un projet de vol privé ou une demande urgente ?&#xA;Notre équipe vous répond 24/7 pour vous conseiller et organiser chaque détail, en toute confidentialité.&lt;/p&gt;&#xA;&lt;p&gt;Remplissez le formulaire ou contactez-nous directement.&#xA;Un courtier dédié reviendra vers vous dans l’heure, avec une solution personnalisée pour votre voyage en jet privé.&lt;/p&gt;&#xA;&lt;p&gt;Votre temps, votre ciel. Nous orchestrons l’excellence à chaque étape.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/fr/pages-legales/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conditions Générales d’Utilisation</title>
       <link>http://localhost:1313/cgu/</link>
@@ -42,13 +34,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/cookies/</guid>
       <description>&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;&#xA;&lt;p&gt;La présente politique a pour objectif de vous informer sur l’utilisation des cookies lors de votre navigation sur le site &lt;a href=&#34;https://eleva-jets.com&#34;&gt;https://eleva-jets.com&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-quest-ce-quun-cookie&#34;&gt;2. Qu’est-ce qu’un cookie ?&lt;/h2&gt;&#xA;&lt;p&gt;Un cookie est un petit fichier texte susceptible d’être enregistré sur le disque dur de votre terminal (ordinateur, tablette, smartphone) lors de la consultation d’un site internet.&lt;br&gt;&#xA;Il permet de reconnaître votre appareil et de collecter certaines informations relatives à votre navigation, dans le but d’améliorer votre expérience utilisateur.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Vol privé sur-mesure, partout dans le monde</title>
-      <link>http://localhost:1313/fr/test-form/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/test-form/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

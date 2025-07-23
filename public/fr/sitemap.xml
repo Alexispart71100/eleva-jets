@@ -2,10 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/fr/</loc>
+    <lastmod>2025-07-21T10:50:47+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/contact/</loc>
+    <lastmod>2025-07-21T10:50:12+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/blog/</loc>
+  </url><url>
+    <loc>http://localhost:1313/fr/jets-prives/</loc>
+  </url><url>
     <loc>http://localhost:1313/fr/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cgu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/mention-legales/</loc>
+  </url><url>
+    <loc>http://localhost:1313/fr/pages-legales/</loc>
+  </url><url>
+    <loc>http://localhost:1313/confidentialite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cookies/</loc>
   </url><url>
     <loc>http://localhost:1313/fr/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/fr/</loc>
+    <loc>http://localhost:1313/fr/test-form/</loc>
   </url>
 </urlset>
