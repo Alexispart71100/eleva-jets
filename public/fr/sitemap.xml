@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/fr/demande-de-devis/</loc>
+    <lastmod>2025-07-21T10:50:47+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/fr/</loc>
     <lastmod>2025-07-21T10:50:47+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/fr/contact/</loc>
     <lastmod>2025-07-21T10:50:12+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/a-propos/</loc>
+    <lastmod>2025-07-21T10:49:49+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/fr/blog/</loc>
   </url><url>

@@ -1,9 +1,7 @@
 ---
 title: "Contact"
 date: "2025-07-21T10:50:12+02:00"
-draft: false
-type: "contact"
-layout: "single"
+layout: "contact"
 ---
 
 
