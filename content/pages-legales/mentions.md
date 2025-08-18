@@ -1,7 +1,8 @@
 ---
 title: "Mentions légales"
-url: "/mention-legales/"
-layout: "legal"
+slug: "mentions-legales"
+draft: false
+
 ---
 
 ## 1. Éditeur du site

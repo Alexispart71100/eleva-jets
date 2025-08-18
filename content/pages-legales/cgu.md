@@ -1,7 +1,8 @@
 ---
 title: "Conditions Générales d’Utilisation"
-url: "/cgu/"
-layout: "legal"
+slug: "conditions-generales-dutilisation"
+draft: false
+
 ---
 
 ## 1. Objet

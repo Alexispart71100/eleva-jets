@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vol privé sur-mesure, partout dans le monde on My New Hugo Site</title>
+    <title>Vol privé sur-mesure, partout dans le monde on Eleva-Jets</title>
     <link>http://localhost:1313/fr/</link>
-    <description>Recent content in Vol privé sur-mesure, partout dans le monde on My New Hugo Site</description>
+    <description>Recent content in Vol privé sur-mesure, partout dans le monde on Eleva-Jets</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 10:50:47 +0200</lastBuildDate>
+    <language>fr-FR</language>
+    <lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Demande De Devis</title>
-      <link>http://localhost:1313/fr/demande-de-devis/</link>
-      <pubDate>Mon, 21 Jul 2025 10:50:47 +0200</pubDate>
-      <guid>http://localhost:1313/fr/demande-de-devis/</guid>
-      <description></description>
+      <title>À propos d’Eleva Jets</title>
+      <link>http://localhost:1313/fr/a-propos/</link>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/fr/a-propos/</guid>
+      <description>&lt;h2 id=&#34;à-propos-deleva-jets&#34;&gt;À propos d’Eleva Jets&lt;/h2&gt;&#xA;&lt;h3 id=&#34;notre-mission&#34;&gt;Notre mission&lt;/h3&gt;&#xA;&lt;p&gt;Chez &lt;strong&gt;Eleva Jets&lt;/strong&gt;, nous facilitons l’accès à l’aviation privée pour les voyageurs les plus exigeants.&lt;br&gt;&#xA;Ni opérateur, ni simple comparateur, nous jouons le rôle de &lt;strong&gt;courtier intelligent&lt;/strong&gt; : sélectionner pour vous la meilleure solution de vol privé, au meilleur moment, en toute confidentialité.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;notre-différence&#34;&gt;Notre différence&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sélection sur mesure&lt;/strong&gt; – Nous travaillons exclusivement avec un réseau certifié de brokers et d’opérateurs reconnus.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Expertise locale&lt;/strong&gt; – Chaque ville de départ a ses spécificités : aéroports, créneaux, saisonnalité. Nous les connaissons.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Confidentialité absolue&lt;/strong&gt; – Vos données ne sont partagées qu’avec un seul interlocuteur sélectionné.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Réactivité prouvée&lt;/strong&gt; – Réponse personnalisée en moins d’une heure.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;notre-approche&#34;&gt;Notre approche&lt;/h3&gt;&#xA;&lt;p&gt;Que vous soyez un &lt;strong&gt;PDG en déplacement&lt;/strong&gt;, une &lt;strong&gt;famille en voyage privé&lt;/strong&gt;, une &lt;strong&gt;entreprise organisant un incentive&lt;/strong&gt; ou un &lt;strong&gt;VIP en quête de discrétion&lt;/strong&gt;, nous adaptons notre accompagnement à vos priorités :&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
@@ -23,46 +23,39 @@
       <description>&lt;h2 id=&#34;contactez-nous&#34;&gt;Contactez-nous&lt;/h2&gt;&#xA;&lt;p&gt;Une question, un projet de vol privé ou une demande urgente ?&#xA;Notre équipe vous répond 24/7 pour vous conseiller et organiser chaque détail, en toute confidentialité.&lt;/p&gt;&#xA;&lt;p&gt;Remplissez le formulaire ou contactez-nous directement.&#xA;Un courtier dédié reviendra vers vous dans l’heure, avec une solution personnalisée pour votre voyage en jet privé.&lt;/p&gt;&#xA;&lt;p&gt;Votre temps, votre ciel. Nous orchestrons l’excellence à chaque étape.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A Propos</title>
-      <link>http://localhost:1313/fr/a-propos/</link>
-      <pubDate>Mon, 21 Jul 2025 10:49:49 +0200</pubDate>
-      <guid>http://localhost:1313/fr/a-propos/</guid>
+      <title></title>
+      <link>http://localhost:1313/fr/jets-prives/turbo-propulseur/king-air-300/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/jets-prives/turbo-propulseur/king-air-300/</guid>
       <description></description>
     </item>
     <item>
       <title>Conditions Générales d’Utilisation</title>
-      <link>http://localhost:1313/cgu/</link>
+      <link>http://localhost:1313/fr/conditions-generales-dutilisation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cgu/</guid>
+      <guid>http://localhost:1313/fr/conditions-generales-dutilisation/</guid>
       <description>&lt;h2 id=&#34;1-objet&#34;&gt;1. Objet&lt;/h2&gt;&#xA;&lt;p&gt;Les présentes conditions générales d’utilisation (CGU) ont pour objet de définir les modalités et conditions d’utilisation du site &lt;a href=&#34;https://eleva-jets.com&#34;&gt;https://eleva-jets.com&lt;/a&gt; et des services proposés par Eleva Jets.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-acceptation-des-conditions&#34;&gt;2. Acceptation des conditions&lt;/h2&gt;&#xA;&lt;p&gt;L’accès et l’utilisation du site impliquent l’acceptation pleine et entière des présentes CGU par tout utilisateur.&lt;/p&gt;&#xA;&lt;h2 id=&#34;3-description-des-services&#34;&gt;3. Description des services&lt;/h2&gt;&#xA;&lt;p&gt;Eleva Jets propose une plateforme en ligne destinée à mettre en relation des utilisateurs à la recherche de solutions de transport aérien privé avec des partenaires courtiers spécialisés.&lt;br&gt;&#xA;Le site ne commercialise ni n’opère directement aucun vol. Toute demande de réservation ou d’information est transmise à des partenaires tiers qui assurent la prestation sous leur propre responsabilité.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mentions légales</title>
-      <link>http://localhost:1313/mention-legales/</link>
+      <link>http://localhost:1313/fr/mentions-legales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mention-legales/</guid>
+      <guid>http://localhost:1313/fr/mentions-legales/</guid>
       <description>&lt;h2 id=&#34;1-éditeur-du-site&#34;&gt;1. Éditeur du site&lt;/h2&gt;&#xA;&lt;p&gt;Le présent site &lt;a href=&#34;https://eleva-jets.com&#34;&gt;https://eleva-jets.com&lt;/a&gt; est édité par :&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Eleva Jets&lt;/strong&gt;&lt;br&gt;&#xA;Société&lt;br&gt;&#xA;19b rue André Morel&lt;br&gt;&#xA;70000 Noidans-lès-Vesoul&lt;br&gt;&#xA;France&lt;/p&gt;&#xA;&lt;p&gt;Email : &lt;a href=&#34;mailto:contact@eleva-jets.com&#34;&gt;contact@eleva-jets.com&lt;/a&gt;&lt;br&gt;&#xA;Téléphone : +33 6 15 34 35 83&lt;/p&gt;&#xA;&lt;p&gt;Responsable éditorial : Alexis Parietti&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-hébergement-du-site&#34;&gt;2. Hébergement du site&lt;/h2&gt;&#xA;&lt;p&gt;Le site est hébergé par :&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Netlify, Inc.&lt;/strong&gt;&lt;br&gt;&#xA;2325 3rd Street, Suite 215&lt;br&gt;&#xA;San Francisco, CA 94107&lt;br&gt;&#xA;États-Unis&lt;br&gt;&#xA;Site web : &lt;a href=&#34;https://www.netlify.com&#34;&gt;https://www.netlify.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;3-responsabilité&#34;&gt;3. Responsabilité&lt;/h2&gt;&#xA;&lt;p&gt;Eleva Jets s’efforce d’assurer l’exactitude et la mise à jour régulière des informations diffusées sur ce site. Toutefois, des erreurs ou omissions peuvent survenir.&lt;br&gt;&#xA;L’éditeur du site ne saurait être tenu responsable de l’utilisation faite des informations contenues sur le site, ni des conséquences pouvant en découler.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Politique de confidentialité</title>
-      <link>http://localhost:1313/confidentialite/</link>
+      <link>http://localhost:1313/fr/politique-de-confidentialite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/confidentialite/</guid>
+      <guid>http://localhost:1313/fr/politique-de-confidentialite/</guid>
       <description>&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;&#xA;&lt;p&gt;La présente politique de confidentialité a pour but d’informer les utilisateurs du site &lt;a href=&#34;https://eleva-jets.com&#34;&gt;https://eleva-jets.com&lt;/a&gt; sur la collecte, l’utilisation et la protection de leurs données personnelles, conformément à la réglementation en vigueur, notamment le Règlement Général sur la Protection des Données (RGPD).&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-responsable-du-traitement&#34;&gt;2. Responsable du traitement&lt;/h2&gt;&#xA;&lt;p&gt;Le responsable du traitement des données est :&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Eleva Jets&lt;/strong&gt;&lt;br&gt;&#xA;19b rue André Morel&lt;br&gt;&#xA;70000 Noidans-lès-Vesoul&lt;br&gt;&#xA;France&lt;br&gt;&#xA;Email : &lt;a href=&#34;mailto:contact@eleva-jets.com&#34;&gt;contact@eleva-jets.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;3-données-collectées&#34;&gt;3. Données collectées&lt;/h2&gt;&#xA;&lt;p&gt;Les données personnelles susceptibles d’être collectées via le site sont :&lt;/p&gt;</description>
     </item>
     <item>
       <title>Politique relative aux cookies</title>
-      <link>http://localhost:1313/cookies/</link>
+      <link>http://localhost:1313/fr/cookies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cookies/</guid>
+      <guid>http://localhost:1313/fr/cookies/</guid>
       <description>&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;&#xA;&lt;p&gt;La présente politique a pour objectif de vous informer sur l’utilisation des cookies lors de votre navigation sur le site &lt;a href=&#34;https://eleva-jets.com&#34;&gt;https://eleva-jets.com&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-quest-ce-quun-cookie&#34;&gt;2. Qu’est-ce qu’un cookie ?&lt;/h2&gt;&#xA;&lt;p&gt;Un cookie est un petit fichier texte susceptible d’être enregistré sur le disque dur de votre terminal (ordinateur, tablette, smartphone) lors de la consultation d’un site internet.&lt;br&gt;&#xA;Il permet de reconnaître votre appareil et de collecter certaines informations relatives à votre navigation, dans le but d’améliorer votre expérience utilisateur.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Vol privé sur-mesure, partout dans le monde</title>
-      <link>http://localhost:1313/fr/test-form/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/test-form/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

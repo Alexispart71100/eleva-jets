@@ -1,9 +1,17 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Eleva-Jets'
 timeZone = "Europe/Paris"
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    languageCode = "fr-FR"
+    weight = 1
+
+[permalinks]
+  pages-legales = "/:slug/"
 
 [imaging]
 quality = 80
@@ -20,7 +28,6 @@ resampleFilter = "Lanczos"
   startLevel = 2
   endLevel = 5
   ordered = true
-
 
 [build]
   [build.buildStats]
@@ -41,4 +48,3 @@ resampleFilter = "Lanczos"
     disableWatch = true
     source = "hugo_stats.json"
     target = "assets/notwatching/hugo_stats.json"
-

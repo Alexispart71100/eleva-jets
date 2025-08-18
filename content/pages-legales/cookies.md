@@ -1,7 +1,8 @@
 ---
 title: "Politique relative aux cookies"
-url: "/cookies/"
-layout: "legal"
+slug: "cookies"
+draft: false
+
 ---
 
 ## 1. Introduction

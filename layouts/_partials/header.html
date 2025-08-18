@@ -1,22 +1,22 @@
 <header class="bg-bleu-nuit text-blanc-casse py-4 shadow-md sticky top-0 z-50">
   <div class="container mx-auto px-4 flex items-center justify-between">
-    <!-- Logo (texte seul, provisoire) -->
-    <a href="/" class="flex items-center gap-2">
+    <!-- Logo -->
+    <a href="{{ "/" | relLangURL }}" class="flex items-center gap-2">
       <!-- <img src="/images/logo.svg" alt="Eleva Jets" class="h-8 w-auto" loading="lazy"> -->
       <span class="font-serif text-xl font-bold tracking-tight">Eleva Jets</span>
     </a>
-    <!-- Navigation principale (visible sur desktop) -->
+    <!-- Navigation principale -->
     <nav class="hidden md:flex gap-8 font-sans text-base">
-      <a href="/" class="hover:text-or-doux transition-colors">Accueil</a>
-      <a href="/jets-prives/" class="hover:text-or-doux transition-colors">Jets privés</a>
-      <a href="/destinations/" class="hover:text-or-doux transition-colors">Destinations</a>
-      <a href="/blog/" class="hover:text-or-doux transition-colors">Blog</a>
-      <a href="/a-propos/" class="hover:text-or-doux transition-colors">À propos</a>
-      <a href="/contact/" class="hover:text-or-doux transition-colors">Contact</a>
+      <a href="{{ "/" | relLangURL }}" class="hover:text-or-doux transition-colors">Accueil</a>
+      <a href="{{ "/jets-prives/" | relLangURL }}" class="hover:text-or-doux transition-colors">Jets privés</a>
+      <a href="{{ "/destinations/" | relLangURL }}" class="hover:text-or-doux transition-colors">Destinations</a>
+      <a href="{{ "/blog/" | relLangURL }}" class="hover:text-or-doux transition-colors">Blog</a>
+      <a href="{{ "/a-propos/" | relLangURL }}" class="hover:text-or-doux transition-colors">À propos</a>
+      <a href="{{ "/contact/" | relLangURL }}" class="hover:text-or-doux transition-colors">Contact</a>
     </nav>
     <!-- CTA / Burger menu -->
     <div class="flex items-center gap-4">
-      <a href="/demande-de-devis/" class="hidden md:inline-block px-5 py-2 rounded-full font-bold border-2 border-or-doux hover:bg-or-doux hover:text-bleu-nuit transition">
+      <a href="{{ "/demande-de-devis/" | relLangURL }}" class="hidden md:inline-block px-5 py-2 rounded-full font-bold border-2 border-or-doux hover:bg-or-doux hover:text-bleu-nuit transition">
         Demander un devis
       </a>
       <!-- Burger pour mobile -->

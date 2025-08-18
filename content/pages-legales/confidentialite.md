@@ -1,7 +1,7 @@
 ---
 title: "Politique de confidentialité"
-url: "/confidentialite/"
-layout: "legal"
+slug: "politique-de-confidentialite"
+draft: false
 ---
 
 ## 1. Introduction
